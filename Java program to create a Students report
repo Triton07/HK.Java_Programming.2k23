@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+class student_report
+{
+public static void main(String args[])
+{
+String name;
+int reg,m1,m2,m3,m4,m5;
+Scanner a1 = new Scanner(System.in);
+System.out.print("Enter Your name = ");
+name = a1.nextLine();
+System.out.print("Enter your Registration number = ");
+reg = a1.nextInt();
+System.out.println("Enter all your marks = ");
+m1 = a1.nextInt();
+m2 = a1.nextInt();
+m3 = a1.nextInt();
+m4 = a1.nextInt();
+m5 = a1.nextInt();
+
+System.out.print("Name = "+name+"\n");
+System.out.print("Reg.no ="+reg+"\n");
+
+int total = m1+m2+m3+m4+m5;
+int avg = total/5;
+
+System.out.print("Total = "+total+"\n");
+System.out.print("Average ="+avg+"\n");
+}
+}
