@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+class area 
+{
+    public static void main(String args[]) {
+        double aoc, r;
+        int aos, s;
+        Scanner a1 = new Scanner(System.in);
+        System.out.print("Enter the value of r");
+        r = a1.nextFloat();
+        aoc =(float) (3.14) * r * r;
+        System.out.print("Enter the value of s");
+        s = a1.nextInt();
+        aos = s * s;
+        System.out.println("The Area of Circle = " + aoc);
+        System.out.println("The Area of Square = " + aos);
+    }
+}
